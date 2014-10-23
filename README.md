@@ -7,7 +7,7 @@ Coffee class to test connection speed for one or few hosts
 ```coffee
 # put files https://github.com/kerbyfc/speedtest/tree/master/srv/public/speedtest/files
 # to target server and make them asseccable by path /speedtest/files
-test = new Speedtest('http://googgle.com');
+test = new Speedtest(['http://ruhost.com', 'http://ushost.com']);
 
 handlers = 
   'start': ->
